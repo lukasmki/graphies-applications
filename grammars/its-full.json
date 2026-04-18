@@ -23,9 +23,15 @@
         { "symbol": "Na", "degree": 8, "data": {"element": "Na"} },
         { "symbol": "Zn", "degree": 8, "data": {"element": "Zn"} },
         { "symbol": "V",  "degree": 8, "data": {"element": "V" } },
+        { "symbol": "Y",  "degree": 8, "data": {"element": "Y" } },
+        { "symbol": "Nd", "degree": 8, "data": {"element": "Nd"} },
+        { "symbol": "Rb", "degree": 8, "data": {"element": "Rb"} },
+        { "symbol": "Pr", "degree": 8, "data": {"element": "Pr"} },
         { "symbol": "Rh", "degree": 8, "data": {"element": "Rh"} },
         { "symbol": "Ta", "degree": 8, "data": {"element": "Ta"} },
         { "symbol": "Bi", "degree": 8, "data": {"element": "Bi"} },
+        { "symbol": "Dy", "degree": 8, "data": {"element": "Dy"} },
+        { "symbol": "Gd", "degree": 8, "data": {"element": "Gd"} },
         { "symbol": "Ti", "degree": 8, "data": {"element": "Ti"} },
         { "symbol": "W",  "degree": 8, "data": {"element": "W" } },
         { "symbol": "La", "degree": 8, "data": {"element": "La"} },
@@ -35,23 +41,36 @@
         { "symbol": "Re", "degree": 8, "data": {"element": "Re"} },
         { "symbol": "Ba", "degree": 8, "data": {"element": "Ba"} },
         { "symbol": "Ag", "degree": 8, "data": {"element": "Ag"} },
+        { "symbol": "Tb", "degree": 8, "data": {"element": "Tb"} },
         { "symbol": "Xe", "degree": 8, "data": {"element": "Xe"} },
+        { "symbol": "Au", "degree": 8, "data": {"element": "Au"} },
+        { "symbol": "Be", "degree": 8, "data": {"element": "Be"} },
+        { "symbol": "Sr", "degree": 8, "data": {"element": "Sr"} },
         { "symbol": "Fe", "degree": 8, "data": {"element": "Fe"} },
         { "symbol": "Ru", "degree": 8, "data": {"element": "Ru"} },
         { "symbol": "Cd", "degree": 8, "data": {"element": "Cd"} },
+        { "symbol": "Sm", "degree": 8, "data": {"element": "Sm"} },
         { "symbol": "Ni", "degree": 8, "data": {"element": "Ni"} },
         { "symbol": "Te", "degree": 8, "data": {"element": "Te"} },
+        { "symbol": "U",  "degree": 8, "data": {"element": "U" } },
+        { "symbol": "Ar", "degree": 8, "data": {"element": "Ar"} },
         { "symbol": "In", "degree": 8, "data": {"element": "In"} },
         { "symbol": "Ce", "degree": 8, "data": {"element": "Ce"} },
+        { "symbol": "Er", "degree": 8, "data": {"element": "Er"} },
         { "symbol": "Mo", "degree": 8, "data": {"element": "Mo"} },
         { "symbol": "K",  "degree": 8, "data": {"element": "K" } },
         { "symbol": "As", "degree": 8, "data": {"element": "As"} },
         { "symbol": "Pd", "degree": 8, "data": {"element": "Pd"} },
+        { "symbol": "Eu", "degree": 8, "data": {"element": "Eu"} },
         { "symbol": "Pb", "degree": 8, "data": {"element": "Pb"} },
+        { "symbol": "Yb", "degree": 8, "data": {"element": "Yb"} },
         { "symbol": "Cs", "degree": 8, "data": {"element": "Cs"} },
         { "symbol": "Hf", "degree": 8, "data": {"element": "Hf"} },
+        { "symbol": "Sc", "degree": 8, "data": {"element": "Sc"} },
         { "symbol": "Sb", "degree": 8, "data": {"element": "Sb"} },
         { "symbol": "Ge", "degree": 8, "data": {"element": "Ge"} },
+        { "symbol": "Tl", "degree": 8, "data": {"element": "Tl"} },
+        { "symbol": "Nb", "degree": 8, "data": {"element": "Nb"} },
         { "symbol": "Ga", "degree": 8, "data": {"element": "Ga"} },
         { "symbol": "Cr", "degree": 8, "data": {"element": "Cr"} },
         { "symbol": "Mn", "degree": 8, "data": {"element": "Mn"} },
@@ -168,29 +187,11 @@
         {"symbol": "f", "value": 15}
     ],
     "modifiers": [
-        {
-            "symbol": "H1", "weight": 0, "category": "hydrogen",
-            "allowed_nodes": ["Al", "Pt", "Mn", "Cr", "Ga", "Ge", "Sb", "Hf", "Cs", "Pb", "Pd", "As", "K", "Mo", "Ce", "In", "Te", "Ni", "Cd", "Ru", "Fe", "Xe", "Ag", "Ba", "Re", "Ir", "Zr", "Ca", "La", "W", "Ti", "Bi", "Ta", "Rh", "V", "Zn", "Na", "Co", "Se", "Sn", "Li", "Hg", "Os", "Cu", "Si", "Mg", "S", "P", "O", "N", "C", "B", "I", "Br", "Cl", "F", "H"]
-        },
-        { 
-            "symbol": "H2", "weight": 0, "category": "hydrogen",
-            "allowed_nodes": ["Al", "Ge", "Sb", "Ir", "Se", "Sn", "Si", "S", "P", "O", "N", "C", "B", "I", "Br", "Cl", "F", "H"]
-        },
-        { 
-            "symbol": "H3", "weight": 0, "category": "hydrogen",
-            "allowed_nodes": ["Al", "Sn", "Si", "S", "P", "O", "N", "C", "B", "I"]
-        },
-        { 
-            "symbol": "H4", "weight": 0, "category": "hydrogen",
-            "allowed_nodes": ["Al", "Sn", "Si", "P", "N", "C", "B"]
-        },
-        { 
-            "symbol": "+1", "weight": 0, "category": "charge",
-            "allowed_nodes": ["Al", "Pt", "Mn", "Cr", "Ga", "Ge", "Sb", "Hf", "Pb", "Pd", "As", "K", "Mo", "Ce", "In", "Te", "Ni", "Cd", "Ru", "Fe", "Xe", "Ag", "Ba", "Re", "Ir", "Zr", "Ca", "La", "W", "Ti", "Bi", "Ta", "Rh", "V", "Zn", "Na", "Co", "Se", "Sn", "Li", "Hg", "Os", "Cu", "Si", "Mg", "S", "P", "O", "N", "C", "B", "I", "Br", "Cl", "F", "H"]
-        },
-        { 
-            "symbol": "-1", "weight": 0, "category": "charge",
-            "allowed_nodes": ["Al", "Ga", "Cs", "Pd", "K", "Ag", "Ti", "Zn", "Na", "Se", "Sn", "Li", "Cu", "Mg", "S", "P", "O", "N", "C", "B", "I", "Br", "Cl", "H"]
-        }
+        {"symbol": "H1", "weight": 0, "category": "hydrogen"},
+        {"symbol": "H2", "weight": 0, "category": "hydrogen"},
+        {"symbol": "H3", "weight": 0, "category": "hydrogen"},
+        {"symbol": "H4", "weight": 0, "category": "hydrogen"},
+        {"symbol": "+1", "weight": 0, "category": "charge"  },
+        {"symbol": "-1", "weight": 0, "category": "charge"  }
     ]
 }
