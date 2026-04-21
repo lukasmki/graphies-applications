@@ -1,0 +1,171 @@
+{
+    "nodes"    : [
+        { "symbol": "H",  "degree": 8, "data": {"element": "H" } },
+        { "symbol": "F",  "degree": 8, "data": {"element": "F" } },
+        { "symbol": "Cl", "degree": 8, "data": {"element": "Cl"} },
+        { "symbol": "Br", "degree": 8, "data": {"element": "Br"} },
+        { "symbol": "I",  "degree": 8, "data": {"element": "I" } },
+        { "symbol": "B",  "degree": 8, "data": {"element": "B" } },
+        { "symbol": "C",  "degree": 8, "data": {"element": "C" } },
+        { "symbol": "N",  "degree": 8, "data": {"element": "N" } },
+        { "symbol": "O",  "degree": 8, "data": {"element": "O" } },
+        { "symbol": "P",  "degree": 8, "data": {"element": "P" } },
+        { "symbol": "S",  "degree": 8, "data": {"element": "S" } },
+        { "symbol": "Mg", "degree": 8, "data": {"element": "Mg"} },
+        { "symbol": "Si", "degree": 8, "data": {"element": "Si"} },
+        { "symbol": "Cu", "degree": 8, "data": {"element": "Cu"} },
+        { "symbol": "Os", "degree": 8, "data": {"element": "Os"} },
+        { "symbol": "Hg", "degree": 8, "data": {"element": "Hg"} },
+        { "symbol": "Li", "degree": 8, "data": {"element": "Li"} },
+        { "symbol": "Sn", "degree": 8, "data": {"element": "Sn"} },
+        { "symbol": "Se", "degree": 8, "data": {"element": "Se"} },
+        { "symbol": "Co", "degree": 8, "data": {"element": "Co"} },
+        { "symbol": "Na", "degree": 8, "data": {"element": "Na"} },
+        { "symbol": "Zn", "degree": 8, "data": {"element": "Zn"} },
+        { "symbol": "V",  "degree": 8, "data": {"element": "V" } },
+        { "symbol": "Rh", "degree": 8, "data": {"element": "Rh"} },
+        { "symbol": "Ta", "degree": 8, "data": {"element": "Ta"} },
+        { "symbol": "Bi", "degree": 8, "data": {"element": "Bi"} },
+        { "symbol": "Ti", "degree": 8, "data": {"element": "Ti"} },
+        { "symbol": "W",  "degree": 8, "data": {"element": "W" } },
+        { "symbol": "La", "degree": 8, "data": {"element": "La"} },
+        { "symbol": "Ca", "degree": 8, "data": {"element": "Ca"} },
+        { "symbol": "Zr", "degree": 8, "data": {"element": "Zr"} },
+        { "symbol": "Ir", "degree": 8, "data": {"element": "Ir"} },
+        { "symbol": "Re", "degree": 8, "data": {"element": "Re"} },
+        { "symbol": "Ba", "degree": 8, "data": {"element": "Ba"} },
+        { "symbol": "Ag", "degree": 8, "data": {"element": "Ag"} },
+        { "symbol": "Xe", "degree": 8, "data": {"element": "Xe"} },
+        { "symbol": "Fe", "degree": 8, "data": {"element": "Fe"} },
+        { "symbol": "Ru", "degree": 8, "data": {"element": "Ru"} },
+        { "symbol": "Cd", "degree": 8, "data": {"element": "Cd"} },
+        { "symbol": "Ni", "degree": 8, "data": {"element": "Ni"} },
+        { "symbol": "Te", "degree": 8, "data": {"element": "Te"} },
+        { "symbol": "In", "degree": 8, "data": {"element": "In"} },
+        { "symbol": "Ce", "degree": 8, "data": {"element": "Ce"} },
+        { "symbol": "Mo", "degree": 8, "data": {"element": "Mo"} },
+        { "symbol": "K",  "degree": 8, "data": {"element": "K" } },
+        { "symbol": "As", "degree": 8, "data": {"element": "As"} },
+        { "symbol": "Pd", "degree": 8, "data": {"element": "Pd"} },
+        { "symbol": "Pb", "degree": 8, "data": {"element": "Pb"} },
+        { "symbol": "Cs", "degree": 8, "data": {"element": "Cs"} },
+        { "symbol": "Hf", "degree": 8, "data": {"element": "Hf"} },
+        { "symbol": "Sb", "degree": 8, "data": {"element": "Sb"} },
+        { "symbol": "Ge", "degree": 8, "data": {"element": "Ge"} },
+        { "symbol": "Ga", "degree": 8, "data": {"element": "Ga"} },
+        { "symbol": "Cr", "degree": 8, "data": {"element": "Cr"} },
+        { "symbol": "Mn", "degree": 8, "data": {"element": "Mn"} },
+        { "symbol": "Pt", "degree": 8, "data": {"element": "Pt"} },
+        { "symbol": "Al", "degree": 8, "data": {"element": "Al"} },
+        { "symbol": "*",  "degree": 8                            }
+    ],
+    "edges"    : [
+        {
+            "symbol": "-",
+            "weight": 1,
+            "data"  : { "order": [1.0, 1.0] }
+        },
+        {
+            "symbol": "=",
+            "weight": 2,
+            "data"  : { "order": [2.0, 2.0] }
+        },
+        {
+            "symbol": "#",
+            "weight": 3,
+            "data"  : { "order": [3.0, 3.0] }
+        },
+        {
+            "symbol": "0-",
+            "weight": 0,
+            "data"  : { "order": [0.0, 1.0] }
+        },
+        {
+            "symbol": "0=",
+            "weight": 0,
+            "data"  : { "order": [0.0, 2.0] }
+        },
+        {
+            "symbol": "0#",
+            "weight": 0,
+            "data"  : { "order": [0.0, 3.0] }
+        },
+        {
+            "symbol": "-0",
+            "weight": 0,
+            "data"  : { "order": [1.0, 0.0] }
+        },
+        {
+            "symbol": "=0",
+            "weight": 0,
+            "data"  : { "order": [2.0, 0.0] }
+        },
+        {
+            "symbol": "#0",
+            "weight": 0,
+            "data"  : { "order": [3.0, 0.0] }
+        },
+        {
+            "symbol": "-=",
+            "weight": 1,
+            "data"  : { "order": [1.0, 2.0] }
+        },
+        {
+            "symbol": "-#",
+            "weight": 1,
+            "data"  : { "order": [1.0, 3.0] }
+        },
+        {
+            "symbol": "=-",
+            "weight": 1,
+            "data"  : { "order": [2.0, 1.0] }
+        },
+        {
+            "symbol": "#-",
+            "weight": 1,
+            "data"  : { "order": [3.0, 1.0] }
+        },
+        {
+            "symbol": "=-",
+            "weight": 1,
+            "data"  : { "order": [2.0, 1.0] }
+        },
+        {
+            "symbol": "=#",
+            "weight": 2,
+            "data"  : { "order": [2.0, 3.0] }
+        },
+        {
+            "symbol": "-=",
+            "weight": 1,
+            "data"  : { "order": [1.0, 2.0] }
+        },
+        {
+            "symbol": "#=",
+            "weight": 2,
+            "data"  : { "order": [3.0, 2.0] }
+        },
+        {
+            "symbol": "*",
+            "weight": 1,
+            "data"  : { "order": [1.0, 1.0] }
+        }
+    ],
+    "branches" : [
+        {"symbol": "Fork1", "value": 1}, {"symbol": "Fork2", "value": 2}, {"symbol": "Fork3", "value": 3},
+        {"symbol": "Fork4", "value": 4}
+    ],
+    "links"    : [
+        {"symbol": "Link1", "value": 1}, {"symbol": "Link2", "value": 2}, {"symbol": "Link3", "value": 3},
+        {"symbol": "Link4", "value": 4}
+    ],
+    "index"    : [
+        {"symbol": "0", "value":  0}, {"symbol": "1", "value":  1}, {"symbol": "2", "value":  2},
+        {"symbol": "3", "value":  3}, {"symbol": "4", "value":  4}, {"symbol": "5", "value":  5},
+        {"symbol": "6", "value":  6}, {"symbol": "7", "value":  7}, {"symbol": "8", "value":  8},
+        {"symbol": "9", "value":  9}, {"symbol": "a", "value": 10}, {"symbol": "b", "value": 11},
+        {"symbol": "c", "value": 12}, {"symbol": "d", "value": 13}, {"symbol": "e", "value": 14},
+        {"symbol": "f", "value": 15}
+    ],
+    "modifiers": []
+}
